@@ -18,6 +18,21 @@ input{
     box-sizing: border-box; /* 패딩과 테두리를 너비에 포함시킴 */
 }
 
+textarea{
+    font-family: "굴림", "Gulim", sans-serif;
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+    background-color: #d4d0c8;
+    box-shadow: inset 1px 1px 0px #404040, inset -1px -1px 0px #ffffff;
+    border-top-color: #404040;
+    border-left-color: #404040;
+    border-bottom-color: #ffffff;
+    border-right-color: #ffffff;
+    /* width: 100%; /* 버튼을 컨테이너의 너비에 맞게 설정 */
+    box-sizing: border-box; /* 패딩과 테두리를 너비에 포함시킴 */
+}
+
 button {
     font-family: "굴림", "Gulim", sans-serif;
     font-size: 14px;
